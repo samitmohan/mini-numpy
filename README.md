@@ -1,6 +1,6 @@
-# Smol-numpy — a tiny NumPy-like ndarray from scratch
+# mini-numpy — a tiny NumPy-like ndarray from scratch
 
-**smol-numpy** is a weekend project that implements a minimal `ndarray` with
+**mini-numpy** is a weekend project that implements a minimal `ndarray` with
 - contiguous buffer (`float64`),
 - `shape`/`strides`/views,
 - basic indexing & slicing,
@@ -117,7 +117,3 @@ The benchmark compares MiniNumPy results to NumPy (for correctness) and prints b
 - BLAS backend toggle for `dot`
 
 ---
-
-## License
-
-MIT — do whatever, just keep the notice.
